@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_orar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_orar" />
+        <item
+            android:id="@+id/nav_evenimente"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_evenimente" />
+        <item
+            android:id="@+id/nav_istoric_prezenta"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_istoric_prezenta" />
+        <item
+            android:id="@+id/nav_confidentialitate"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_confidentialitate" />
+
+    </group>
+</menu>

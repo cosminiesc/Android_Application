@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profil">
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.kiai.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_orar"
+        android:name="com.example.kiai.ui.orar.OrarFragment"
+        android:label="@string/menu_orar"
+        tools:layout="@layout/fragment_orar" />
+    <fragment
+        android:id="@+id/nav_evenimente"
+        android:name="com.example.kiai.ui.evenimente.EvenimenteFragment"
+        android:label="@string/menu_evenimente"
+        tools:layout="@layout/fragment_evenimente" />
+    <fragment
+        android:id="@+id/nav_istoric_prezenta"
+        android:name="com.example.kiai.ui.istoric_prezenta.Istoric_prezentaFragment"
+        android:label="@string/menu_istoric_prezenta"
+        tools:layout="@layout/fragment_istoric_prezenta" />
+
+    <fragment
+        android:id="@+id/nav_confidentialitate"
+        android:name="com.example.kiai.ui.confidentialitate.ConfidentialitateFragment"
+        android:label="@string/menu_confidentialitate"
+        tools:layout="@layout/fragment_confidentialitate" />
+
+</navigation>
